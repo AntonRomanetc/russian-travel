@@ -6,7 +6,12 @@
     color: #ffff;
     margin: 0;
     margin-right: 18px;
-}
+    transition: opacity .5s ease;
+  }
+  
+  .footer__link:hover {
+      opacity: .5;
+  }
 
 @media screen and (max-width: 767px) {
     .footer__link {
